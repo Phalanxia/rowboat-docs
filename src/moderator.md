@@ -30,6 +30,7 @@
 | `;archive channel {channel} [count]` | Archives [count] many messages in the given channel | Moderator | `;archive channel 289482554250100736 20` |
 | `;search {query}` | Searches for usernames that match given query | Default | `;search b1nzy` |
 | `;voice log {user}` | Displays a list of a given user's recent voice channel activity | Moderator | `;voice log 232921983317180416` OR `;voice log @rowboat#0001` |
+| `;test_filter {string}` | Returns a list of words detected by the text filter | Moderator | `;test_filter You're a noob!` |
 
 
 ## Infractions
