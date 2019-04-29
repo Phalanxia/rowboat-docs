@@ -25,6 +25,7 @@
 | `;reactions clean {user} [count] [emoji]` | Removes the most recent count of reactions from a given user | `;reactions clean 232921983317180416` OR `;reactions clean @rowboat#0001 30` OR `;reactions clean 232921983317180416 20 :thinking:` |
 | `;search {query}` | Searches for usernames that match given query | `;search b1nzy` |
 | `;voice log {user}` | Displays a list of a given user's recent voice channel activity | `;voice log 232921983317180416` OR `;voice log @rowboat#0001` |
+| `;seen {user}` | Returns when a user last sent a message | `;seen @rowboat#0001` |
 | `;test_filter {string}` | Returns a list of words detected by the text filter | `;test_filter You're a noob!` |
 
 
