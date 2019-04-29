@@ -12,8 +12,6 @@
 | `;ban {user} [reason]` | Bans a user from the server | `;ban 232921983317180416 spamming` OR `;ban @rowboat#0001 spamming` |
 | `;unban {user} [reason]` | Unbans a user | `;unban 232921983317180416` |
 | `;forceban {User ID} [reason]` | Force bans a user who is not currently in the server | `;forceban 232921983317180416 spamming` |
-| `;softban {user} [reason]` | Softbans (bans/unbans) a user and deletes the user's messages sent within the last 7 days | `;softban 232921983317180416 spamming` OR `;softban @rowboat#0001 spamming` |
-| `;tempban {user} {duration} [reason]` | Temporarily bans a user | `;tempban 232921983317180416 5h spamming` OR `;tempban @rowboat#0001 5h spamming` |
 
 
 ## Admin Utilities
@@ -25,9 +23,6 @@
 | `;clean bots [count]` | Cleans [count] many messages sent by bots in the current channel | `;clean bots 30` |
 | `;clean cancel` | Cancels any cleaning process running in current channel | `;clean cancel` |
 | `;reactions clean {user} [count] [emoji]` | Removes the most recent count of reactions from a given user | `;reactions clean 232921983317180416` OR `;reactions clean @rowboat#0001 30` OR `;reactions clean 232921983317180416 20 :thinking:` |
-| `;archive (here / all) [count]` | Archives [count] many messages in the current channel | `;archive all 50` OR `;archive here 50` |
-| `;archive user {user} [count]` | Archives [count] many messages that a given user sent in the current guild | `;archive user 232921983317180416 100` OR `;archive user @rowboat#0001 100` |
-| `;archive channel {channel} [count]` | Archives [count] many messages in the given channel | `;archive channel 289482554250100736 20` |
 | `;search {query}` | Searches for usernames that match given query | `;search b1nzy` |
 | `;voice log {user}` | Displays a list of a given user's recent voice channel activity | `;voice log 232921983317180416` OR `;voice log @rowboat#0001` |
 | `;test_filter {string}` | Returns a list of words detected by the text filter | `;test_filter You're a noob!` |
