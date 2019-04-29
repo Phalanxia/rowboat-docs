@@ -14,7 +14,7 @@
 | `;forceban {User ID} [reason]` | Force bans a user who is not currently in the server | `;forceban 232921983317180416 spamming` |
 
 
-## Admin Utilities
+## Utilities
 
 | Name | Description | Usage |
 |------|-------------|-------|
