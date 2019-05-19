@@ -7,7 +7,6 @@
 | `;warn {user} [reason]` | Adds a warning infraction to a user | `;warn 232921983317180416 1st warning, spamming emoji` OR `;warn @rowboat#0001 2nd warning, going off-topic` |
 | `;mute {user} [reason]` | Mutes a user. This will only work if `mute_role` is set in the config | `;mute 232921983317180416 spamming` OR  `;tempmute @rowboat#0001 60m spamming` |
 | `;unmute {user}` | Unmutes a user | `;unmute 232921983317180416` |
-| `;tempmute {user} {duration} [reason]` | Temporarily mutes a user. Will only work if `temp_mute_role` or `mute_role` is set in the config | `;tempmute 232921983317180416 30m spamming` OR `;tempmute @rowboat#0001 30m spamming` |
 | `;kick {user} [reason]` | Kicks the user from the server | `;kick 232921983317180416 spamming` OR `;kick @rowboat#0001 spamming` |
 | `;ban {user} [reason]` | Bans a user from the server | `;ban 232921983317180416 spamming` OR `;ban @rowboat#0001 spamming` |
 | `;unban {user} [reason]` | Unbans a user | `;unban 232921983317180416` |
